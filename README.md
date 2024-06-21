@@ -12,7 +12,7 @@
 This project aims to identify relationships between weekly sales and various factors using the Walmart dataset. We will explore how the following variables impact weekly sales:
 
 Temperature
-Store Size
+CPI
 Unemployment Rate
 Fuel Price
 IsHoliday (whether the week is a special holiday week)
@@ -31,7 +31,7 @@ Our goal is to analyze these factors comprehensively and derive insights that co
 
 **What tasks need to be completed to get to your final output?** - Tasks have been allocated based on our expertise. These include data cleaning, exploratory data analysis, model selection, and interpretation of results.
 
-**What is the primary focus within the dataset?** - The primary focus within the dataset is to understand the relationships between various predictor variables (like temperature, store size, unemployment rate, fuel price, and holidays) and weekly sales.
+**What is the primary focus within the dataset?** - The primary focus within the dataset is to understand the relationships between various predictor variables (like temperature, CPI, unemployment rate, fuel price, and holidays) and weekly sales.
 
 **What are potential relationships in the data that you could explore?** - Potential relationships we aim to explore include how changes in temperature, economic indicators (like unemployment rate and fuel price), and holiday seasons impact weekly sales.
 
@@ -55,6 +55,8 @@ Key questions our project aims to answer include:
 ## Conclusions
 
 ## Suggestions
+
+## Video recordings
 
 ## Repository
 https://github.com/yevheniia-shabalova/team_project
