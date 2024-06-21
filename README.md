@@ -52,6 +52,10 @@ Key questions our project aims to answer include:
 - Visibility (Task logging on the Board)
 - Feedback
 
+## Conclusions
+
+## Suggestions
+
 ## Repository
 https://github.com/yevheniia-shabalova/team_project
 
