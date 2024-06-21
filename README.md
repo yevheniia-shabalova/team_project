@@ -54,14 +54,11 @@ Key questions our project aims to answer include:
 
 ## Conclusions
 
-**Analysis of temperature impact on weekly sales**
+**Analysis of the influence of temperature on weekly sales**
 
 Overall, OLS regression results shows that temperature has a statistically significant but weak relationship with weekly sales.
-
 Significance of Variables: Both the intercept and the temperature coefficient are statistically significant, as indicated by their p-values (both are < 0.05).
-
 Effect Size: The negative coefficient for Temperature suggests that higher temperatures are associated with lower weekly sales. For each one-degree increase in Temperature, weekly sales decreases by approximately 1493 units, on average.
-
 Model Fit: The very low R-squared value (both on training and test data) indicates that temperature explains only a very small fraction of the variance in weekly sales. This suggests that other factors not included in the model might be more important in predicting weekly sales.
 
 ## Suggestions
