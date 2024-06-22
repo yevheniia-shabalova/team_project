@@ -55,6 +55,10 @@ Key questions our project aims to answer include:
 
 ## Conclusions
 
+### Analysis of weekly sales and Holiday_Flag
+
+The model summary indicates that `Holiday_Flag` is not a statistically significant predictor of `Weekly_Sales`. The R-squared value is very low, suggesting that `Holiday_Flag` explains only a small portion of the variance in `Weekly_Sales`.
+
 **Analysis of Relationship Between Weekly Sales and Fuel Prices**
 
 From the model results, we can conclude that fuel prices do not have a statistically significant relationship with weekly sales. 
@@ -73,6 +77,10 @@ Unemployment coefficient = (-0.1135) indicates that For every 1% increase in une
 
 
 ## Suggestions
+
+### Suggestion of weekly sales and Holiday_Flag
+1. Reevaluate Holiday Promotions: Since holidays do not significantly increase weekly sales, the store should reassess its promotional strategies during holidays. It might be beneficial to analyze which types of promotions (e.g., discounts, bundles) are most effective and focus on those.
+2. Focus on Non-Holiday Periods: Consider boosting sales during non-holiday periods. Identify times of the year when sales are typically lower and implement targeted marketing campaigns or special events to drive traffic during these periods.
 
 **Analysis of Relationship Between Weekly Sales and Fuel Prices**
 
