@@ -43,6 +43,7 @@ Key questions our project aims to answer include:
 2. What impact does store size have on sales performance?
 3. Is there a correlation between unemployment rate and sales?
 4. How do holidays influence weekly sales patterns?
+5. How do fuel prices impact weekly sales?
 
 ## Rules of engagement
 
@@ -54,7 +55,19 @@ Key questions our project aims to answer include:
 
 ## Conclusions
 
+**Analysis of Relationship Between Weekly Sales and Fuel Prices**
+
+From the model results, we can conclude that fuel prices do not have a statistically significant relationship with weekly sales. 
+The R-squared score is very close to 0, which suggests that the independent variable does not significantly predict or explain the weekly sales based on the linear relationship we modelled. The p-value is 0.448, which is greater than the typical significance level of 0.05, so we can see that the model as a whole is not statistically significant. 
+Therefore, other factors may be necessary to effectively predict weekly prices at Walmart stores.
+
 ## Suggestions
+
+**Analysis of Relationship Between Weekly Sales and Fuel Prices**
+
+Although, a fuel price may not directly impact sales, it could indirectly affect consumer behaviour in other ways. For instance, changes in fuel prices might influence consumer spending patterns or shopping frequency. Monitoring these behaviors could provide insights into how to adjust operations or marketing efforts accordingly.
+Also, change in marketing strategies and product assortment, as well as new promotions, and customer experience improvements can help enhance sales performance.
+
 
 ## Video recordings
 
