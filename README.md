@@ -1,21 +1,20 @@
 # Team #22 Project
 
-## Team members
-* Olga Ktytor
-* Olha Zamohylna
-* Sasini Munasinghe
-* Yevheniia Shabalova
-
-## Roles
+## Team members & Roles
+* Olga Ktytor - Data Analyst
+* Olha Zamohylna - Data Analyst
+* Sasini Munasinghe - Data Analyst
+* Yevheniia Shabalova - Data Analyst
 
 ## Description
 This project aims to identify relationships between weekly sales and various factors using the Walmart dataset. We will explore how the following variables impact weekly sales:
 
-Temperature
-CPI
-Unemployment Rate
-Fuel Price
-IsHoliday (whether the week is a special holiday week)
+* Temperature
+* CPI
+* Unemployment Rate
+* Fuel Price
+* IsHoliday (whether the week is a special holiday week)
+
 Our goal is to analyze these factors comprehensively and derive insights that could potentially help optimize sales strategies and operations.
 
 
@@ -40,10 +39,11 @@ Our goal is to analyze these factors comprehensively and derive insights that co
 Key questions our project aims to answer include:
 
 1. How does temperature affect weekly sales?
-2. What impact does store size have on sales performance?
+2. What impact does prevailing consumer price index (CPI) have on sales performance?
 3. Is there a correlation between unemployment rate and sales?
 4. How do holidays influence weekly sales patterns?
 5. How do fuel prices impact weekly sales?
+
 
 ## Rules of engagement
 
@@ -54,6 +54,13 @@ Key questions our project aims to answer include:
 - Feedback
 
 ## Conclusions
+
+**Analysis of the influence of temperature on weekly sales**
+
+Overall, OLS regression results shows that temperature has a statistically significant but weak relationship with weekly sales.
+Significance of Variables: Both the intercept and the temperature coefficient are statistically significant, as indicated by their p-values (both are < 0.05).
+Effect Size: The negative coefficient for Temperature suggests that higher temperatures are associated with lower weekly sales. For each one-degree increase in Temperature, weekly sales decreases by approximately 1493 units, on average.
+Model Fit: The very low R-squared value (both on training and test data) indicates that temperature explains only a very small fraction of the variance in weekly sales. This suggests that other factors not included in the model might be more important in predicting weekly sales.
 
 ### Analysis of weekly sales and Holiday_Flag
 
@@ -77,6 +84,14 @@ Unemployment coefficient = (-0.1135) indicates that For every 1% increase in une
 
 
 ## Suggestions
+
+### Suggestions based on temperature and weekly sales correlation:
+
+1. Exploring Additional Variables (seasonality, competitor activity, store characteristics, customer segments,  etc.)
+2. Targeted Promotions: Use the insights to plan promotions and marketing campaigns more effectively. For example, if certain products sell better at specific temperatures, target promotions accordingly.
+3. Inventory Management: Adjust inventory levels based on temperature forecasts to ensure adequate stock of weather-sensitive items.
+4. Staffing Adjustments: Plan staffing levels according to expected sales patterns influenced by weather conditions and other factors.
+
 
 ### Suggestion of weekly sales and Holiday_Flag
 1. Reevaluate Holiday Promotions: Since holidays do not significantly increase weekly sales, the store should reassess its promotional strategies during holidays. It might be beneficial to analyze which types of promotions (e.g., discounts, bundles) are most effective and focus on those.
