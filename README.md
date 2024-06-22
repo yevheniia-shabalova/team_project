@@ -65,6 +65,17 @@ From the model results, we can conclude that fuel prices do not have a statistic
 The R-squared score is very close to 0, which suggests that the independent variable does not significantly predict or explain the weekly sales based on the linear relationship we modelled. The p-value is 0.448, which is greater than the typical significance level of 0.05, so we can see that the model as a whole is not statistically significant. 
 Therefore, other factors may be necessary to effectively predict weekly prices at Walmart stores.
 
+**Analysis of Relationship Between Weekly Sales and CPI (Consumer Price Index)**
+R-squared = 0.004 indicates that only 0.4% of the variance in Walmart weekly sales can be explained by changes in CPI. This suggests a very weak relationship between CPI and Walmart sales. 
+
+CPI coefficient = (-0.0649) indicates that for every 1% increase in CPI, Walmart weekly sales are predicted to decrease by 6%.
+
+**Analysis of Relationship Between Weekly Sales and Unemployment**
+R-squared = 0.013 indicates that only 1.3% of the variance in Walmart weekly sales can be explained by the unemployment rate. This suggests a very weak relationship between unemployment and Walmart sales. 
+
+Unemployment coefficient = (-0.1135) indicates that For every 1% increase in unemployment rate Walmart weekly sales are predicted to decrease by 11%.
+
+
 ## Suggestions
 
 ### Suggestion of weekly sales and Holiday_Flag
@@ -75,6 +86,20 @@ Therefore, other factors may be necessary to effectively predict weekly prices a
 
 Although, a fuel price may not directly impact sales, it could indirectly affect consumer behaviour in other ways. For instance, changes in fuel prices might influence consumer spending patterns or shopping frequency. Monitoring these behaviors could provide insights into how to adjust operations or marketing efforts accordingly.
 Also, change in marketing strategies and product assortment, as well as new promotions, and customer experience improvements can help enhance sales performance.
+
+**Analysis of Relationship Between Weekly Sales and CPI (Consumer Price Index)**
+
+CPI plays a weak role in predicting Walmart's weekly sales. The observed effect size (-0.0649) might not warrant significant strategic changes unless coupled with other economic factors.
+
+Inclusion of additional factors such as weather, seasons, promotions or economic indicators and performing further analysis to improve the model's explanatory power would help to make more strategic decisions regarding the effect of CPI on weekly sales.
+
+**Analysis of Relationship Between Weekly Sales and Unemployment**
+The negative relationship between unemployment and sales seems reasonable intuitively. In times of high unemployment, consumers might have less disposable income, leading to lower overall spending, potentially impacting Walmart's sales.
+
+Though the effect of unemployment on Walmart weekly sales is statistically significant, it explains only about 1.3% of the variation in sales. This suggests that factors other than unemployment rate play a much larger role in determining Walmart sales.
+
+Furthermore, analyzing data store wise might give better results by reducing the correlation of data within stores.
+
 
 ## Video recordings
 
