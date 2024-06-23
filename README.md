@@ -127,6 +127,7 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 
 ## Links to the video recordings
 - Yevheniia Shabalova https://drive.google.com/file/d/1MkZn2tzoydjEIJW_ePd6B8SM0ClSGQ9-/view?usp=sharing
+- Sasini Munasinghe https://drive.google.com/file/d/1w8XJJA2RDhhK_KDkfY5bkkjlYWH5qCeL/view
 
 ## Folder Structure
 
