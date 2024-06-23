@@ -127,7 +127,7 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 
 ## Links to the video recordings
 - Yevheniia Shabalova https://drive.google.com/file/d/1MkZn2tzoydjEIJW_ePd6B8SM0ClSGQ9-/view?usp=sharing
-
+- Olha Zamohylna https://drive.google.com/file/d/1aPBRQkkxkQEbIG3Cdl9PzAP0-GMu_bVv/view?usp=sharing
 ## Folder Structure
 
 ### Project 1
