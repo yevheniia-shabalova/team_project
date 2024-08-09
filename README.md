@@ -131,6 +131,8 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 - Sasini Munasinghe https://drive.google.com/file/d/1w8XJJA2RDhhK_KDkfY5bkkjlYWH5qCeL/view
 - Olga Ktytor https://drive.google.com/file/d/1b12ejB6CEM67kJ6zSpUs0AVkKTNE-P5Q/view?usp=share_link
 
+## Links to the video recordings Pt. 2
+- Yevheniia Shabalova https://drive.google.com/file/d/1Zu6yC5esc23ZzQqZUVhsT-mYpBAkfRDJ/view?usp=drive_link
 
 # Part 2:
 
