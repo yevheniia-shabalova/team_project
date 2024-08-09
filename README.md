@@ -183,7 +183,6 @@ We can achieve it by using inclusive language ensure that labels are neutral, im
 
   **Equity**: I used neutral and inclusive language in titles, labels, and descriptions, avoiding any terms or language that could be considered biased or exclusionary. Also, explanations and context provided that make the visualizations accessible to a wide range of viewers.
 
-
 ## CPI and Unemployment variables/ Monthly and weekly sales trends:
 
 - ![ CPI/Unemployment/Monthly and weekly sales trends(PNG)](visualizations/sm_visualizations.png)
@@ -206,7 +205,6 @@ We can achieve it by using inclusive language ensure that labels are neutral, im
   **Equity**: Anyone can access this visualization publicly via Github. 
   And explanations of the visualizations are provided in Readme file making them accessible to a larger audience.
   Neutral language is used through out this project. 
-
 
 ## Folder Structure
 
