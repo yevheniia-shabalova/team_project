@@ -183,7 +183,28 @@ We can achieve it by using inclusive language ensure that labels are neutral, im
 
   **Equity**: I used neutral and inclusive language in titles, labels, and descriptions, avoiding any terms or language that could be considered biased or exclusionary. Also, explanations and context provided that make the visualizations accessible to a wide range of viewers.
 
+## CPI and Unemployment variables/ Monthly and weekly sales trends:
 
+- ![ CPI/Unemployment/Monthly and weekly sales trends(PNG)](visualizations/sm_visualizations.png)
+
+  **Summary**: According to the scatter plots of weekly sales vs CPI/unemployment, it is clear that there is a weak relationship between these variables. This is also supported by the correlation matrix plot. The weak negative correlation between Weekly Sales and CPI/Unemployment suggests that as CPI or unemployment increases, weekly sales slightly decrease, though the relationship is not strong. The moderate negative correlation between CPI and Unemployment indicates that as the CPI increases, the unemployment rate tends to decrease moderately.
+
+  According to the total sales by store bar graph the top 10 stores significantly outperform the others, with sales ranging from  200 to over 300 million dollars. Given that the top 10 stores contribute to more sales, Walmart could take actions to boost sales in these stores by optimizing inventory, improving customer service and by carrying out customized marketing campaigns.
+  Also Walmart could analyze the issues with lower performing stores and take corrective actions, such as revisiting their product offerings, pricing strategy and promotional activities. 
+
+  There is a noticeable increase in sales during December for both 2010 and 2011, which is likely due to holiday season. In 2012, the sales figures appear to be slightly lower compared to the previous two years. For both 2011 and 2012 lowest sales are recorded in January. Based on these sales figures Walmart could increase sales in January by carrying out early promotions. Also holiday season sales could be further improved by properly managing inventory.
+
+  **Accessibility**: Colors used in the visualizations are not too bright and are accessible for color blind audience. 
+  Contrasting colors are used to easily identify monthly and yearly sales. 
+  Font size over 12pt is used to improve the readability.
+  Titles, x-axis label, y-axis label and legends are included in the plots for clarity.
+
+  **Reproducibility**: Visualizations and commented python script is available in a public GitHub repository. 
+  Data set used to generate the visualizations is also included in the repository.
+
+  **Equity**: Anyone can access this visualization publicly via Github. 
+  And explanations of the visualizations are provided in Readme file making them accessible to a larger audience.
+  Neutral language is used through out this project. 
 
 ## Folder Structure
 
