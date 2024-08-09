@@ -131,6 +131,60 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 - Sasini Munasinghe https://drive.google.com/file/d/1w8XJJA2RDhhK_KDkfY5bkkjlYWH5qCeL/view
 - Olga Ktytor https://drive.google.com/file/d/1b12ejB6CEM67kJ6zSpUs0AVkKTNE-P5Q/view?usp=share_link
 
+
+# Part 2:
+
+## Data Visualization Guiding Questions
+
+
+### What are the main goals and objectives of our visualization project?
+
+  1. To Support Decision-Making: Provide actionable information that supports decision-making processes.
+  2. To Compare and Contrast: Enable comparison between different categories or time periods to identify patterns or differences.
+
+### How can we tailor the visualization to effectively communicate with our audience?
+
+### What type of visualization best suits our data and objectives (e.g., bar chart, scatter plot, heatmap)?
+
+Monthly Sales Comparison: Line charts or bar charts to show trends and comparisons.
+Holiday Sales Analysis: Scatter plots to show sales patterns for specific holidays.
+Half-Year Comparison: Bar charts to compare average sales across different halves of the year.
+
+### Are there any specific libraries or frameworks that are well-suited to our project requirements?
+
+Plotly: Great for interactive and customizable visualizations. Supports a wide range of chart types.
+Matplotlib: Provides detailed control over plots and is suitable for static visualizations.
+Seaborn: Built on Matplotlib, it simplifies complex visualizations and improves aesthetics.
+
+### How can we iterate on our design to address feedback and make iterative improvements?
+
+We can collect a feedback, analyze it and then apply some changes in iterative way and the last step is to test it.
+
+### What best practices can we follow to promote inclusivity and diversity in our visualization design?
+
+We can achieve it by using inclusive language ensure that labels are neutral, implementing accesible color scheme, avoiding byases and providing multiple viewpoints.
+
+### How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?
+
+### Are there any privacy concerns or sensitive information that need to be addressed in our visualization?
+
+
+# Summary of the visualizations:
+
+## Holidays variable:
+
+- ![Comparison of Sales in first & second half (PNG)](visualizations/combined_visualizations.png)
+
+  **Summary**: The visualizations collectively indicate that holidays have a significant impact on sales, with notable increases in average weekly and monthly sales during holidays such as Labor Day, Thanksgiving, Super Bowl, and Christmas. The comparison of the first half and the second half of the year shows that average weekly sales are relatively consistent throughout the year. Specifically, holiday periods drive up sales sharply, as illustrated by both the dot plots and the line graph, suggesting that holidays are critical periods for increased consumer spending. This consistent pattern highlights the importance of holidays in boosting sales operations and planning marketing strategies around these times to maximize revenue.
+
+  **Accessibility**: I used color palettes that are distinguishable for viewers - ensured that my visualizations are accessible to a wider audience. Also, labels and annotations were added to make the data comprehensive. Besides that tooltips were added to some visualizations for additional explanation.
+
+  **Reproducibility**: I provided code that can be run and validated on someone else's machine, some comments are present to give better understanding what is happening.
+
+  **Equity**: I used neutral and inclusive language in titles, labels, and descriptions, avoiding any terms or language that could be considered biased or exclusionary. Also, explanations and context provided that make the visualizations accessible to a wide range of viewers.
+
+
+
 ## Folder Structure
 
 ### Project 1
