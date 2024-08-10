@@ -146,17 +146,32 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 
 ### How can we tailor the visualization to effectively communicate with our audience?
 
+To effectively communicate with different stakeholders:
+
+- Executives and Decision-Makers: Focus on high-level visualizations such as the pie chart and overall scatter plot to quickly convey which seasons are most profitable and general trends between temperature and sales.
+
+- Analysts and Data Teams: Provide detailed visualizations like the scatter plot by store and time series plot. These allow for deeper insights, enabling them to identify specific stores' performance or seasonal sales peaks.
+
+- General Audience: Ensure that the visualizations are intuitive and accessible, using clear labels, consistent color palettes, and simplified legends to make the data easy to interpret for non-experts.
+
 ### What type of visualization best suits our data and objectives (e.g., bar chart, scatter plot, heatmap)?
 
 Monthly Sales Comparison: Line charts or bar charts to show trends and comparisons.
 Holiday Sales Analysis: Scatter plots to show sales patterns for specific holidays.
 Half-Year Comparison: Bar charts to compare average sales across different halves of the year.
 
+Sales vs Temperature, Sales vs Seasons : 
+Scatter Plots: Ideal for exploring correlations between sales and temperature. These plots help identify patterns or outliers and are useful for both overall trends and store-specific insights.
+Pie Chart: Effective for showing the distribution of sales across different seasons, providing a clear visual summary of which seasons contribute the most to overall sales.
+Time Series Plots: Essential for tracking sales trends over time, segmented by season, which helps in understanding the temporal patterns, especially around significant events like holidays.
+
 ### Are there any specific libraries or frameworks that are well-suited to our project requirements?
 
-Plotly: Great for interactive and customizable visualizations. Supports a wide range of chart types.
-Matplotlib: Provides detailed control over plots and is suitable for static visualizations.
-Seaborn: Built on Matplotlib, it simplifies complex visualizations and improves aesthetics.
+- Plotly: Great for interactive and customizable visualizations. Supports a wide range of chart types.
+
+- Matplotlib: Provides detailed control over plots and is suitable for static visualizations.
+
+- Seaborn: Built on Matplotlib, it simplifies complex visualizations and improves aesthetics.
 
 ### How can we iterate on our design to address feedback and make iterative improvements?
 
@@ -168,7 +183,29 @@ We can achieve it by using inclusive language ensure that labels are neutral, im
 
 ### How can we ensure that our visualization accurately represents the underlying data without misleading or misinterpreting information?
 
+To maintain accuracy and avoid misinterpretation:
+
+- Clear Labeling: Ensure that all axes, legends, and titles are clearly labeled with appropriate units and descriptions.
+
+- Consistent Color Palettes: Using the same color palette across different visualizations helps prevent confusion and maintains a clear visual narrative.
+
+- Avoid Overcomplicating: Simplify visualizations by avoiding unnecessary distinctions (e.g., over-segmenting data) and focusing on the most relevant comparisons.
+
+- Transparent Data Processing: Clearly document and apply consistent methods for data processing, such as how seasons were defined or how sales were aggregated.
+
 ### Are there any privacy concerns or sensitive information that need to be addressed in our visualization?
+
+Privacy concerns in this context could include:
+
+- Store-Specific Data: If store IDs are linked to real locations, there could be concerns about revealing performance data that might be sensitive or proprietary.
+
+- Aggregate Data Usage: If individual store data is aggregated without revealing specific identifiers, the risk of privacy breaches is minimized.
+
+To address these concerns:
+
+- Anonymization: Consider anonymizing store identifiers or grouping stores by region rather than displaying them individually.
+
+- Aggregation: Focus on aggregate trends (e.g., seasonal or overall sales) rather than store-specific data unless necessary for the analysis.
 
 
 # Summary of the visualizations:
@@ -207,6 +244,53 @@ We can achieve it by using inclusive language ensure that labels are neutral, im
   **Equity**: Anyone can access this visualization publicly via Github. 
   And explanations of the visualizations are provided in Readme file making them accessible to a larger audience.
   Neutral language is used through out this project. 
+
+## Sales vs Temperature, Sales vs Seasons
+
+![Sales vs Temperature (PNG)](visualizations/vis_sales_temperature.png)
+![Sales vs Seasons (PNG)](visualizations/vis_sales_seasons.png)
+
+  **Summary**.
+  These visualizations provide insights into the relationship between sales and temperature across different stores and seasons. 
+
+  - Overall Sales vs. Temperature:
+  This plot shows a minimal overall correlation between temperature and weekly sales. However, there are noticeable high sales during moderate temperatures, suggesting that extreme weather (either too cold or too hot) might deter shopping activities. This trend implies that consumers prefer shopping during comfortable weather conditions.
+  
+  - Sales vs. Temperature by Store:
+  The scatter plot with distinctions by store reveals that sales behavior varies across different stores. Some stores show a strong correlation between temperature and sales, while others do not. This suggests that external factors like store location, local climate, and perhaps the type of products sold could influence how temperature impacts sales. A deeper analysis considering the geographical locations of these stores could uncover more nuanced insights into why temperature affects some stores more than others.
+  
+  - Seasonal Sales Distribution
+  The Seasonal Sales Distribution pie chart indicates that spring and summer are the most profitable seasons, contributing the highest proportions of total sales. This could be due to increased consumer activity during these warmer months, possibly related to seasonal events, holidays, or vacation periods.
+  
+  - Sales Over Time by Season
+  The Sales Over Time by Season time series plot highlights significant sales peaks right before January each year, indicating that the Christmas season is a particularly busy time for sales. This aligns with typical consumer behavior, where holiday shopping drives significant retail activity. The seasonal breakdown also allows for the observation of how sales fluctuate across different times of the year, reinforcing the importance of seasonality in sales planning and forecasting.
+
+  **Accessibility**. 
+  These visualizations are designed with accessibility in mind by:
+
+  - Readable Text: The font sizes for labels, titles, and legends have been appropriately adjusted, making them readable even for those with visual impairments.
+
+  - Color Palette: A color palette (viridis) that is accessible to color-blind users has been used, ensuring that the visual distinctions between different stores and seasons are clear to all viewers.
+
+  - Legends: Legends are positioned thoughtfully to avoid cluttering the plots and are clearly labeled, which helps users easily identify what each color represents.
+
+  **Reproducibility**.
+  The visualizations are built in a way that they can be easily reproduced:
+
+  - Code Reusability: The Python code provided is straightforward and can be reused or adapted for similar datasets with minimal modifications.
+
+  - Random Seed: The random number generator is seeded (np.random.seed(13)) to ensure that any random aspects of the visualization (if they were present) are consistent across different runs.
+
+  - Data Processing: The steps for converting dates, calculating seasons, and aggregating data are clearly outlined, allowing for easy replication in other environments or with different data.
+
+  **Equity**.
+  The visualizations attempt to provide an equitable view of the data:
+
+  - Equal Representation: Each store and season is given equal weight in the analysis, ensuring that insights are not skewed by overemphasizing certain data points.
+
+  - Comprehensive Analysis: By including both overall and store-specific analyses, the visualizations cater to multiple perspectives, helping various stakeholders see data that is most relevant to their interests.
+  
+
 
 ## Folder Structure
 
