@@ -165,6 +165,10 @@ Scatter Plots: Ideal for exploring correlations between sales and temperature. T
 Pie Chart: Effective for showing the distribution of sales across different seasons, providing a clear visual summary of which seasons contribute the most to overall sales.
 Time Series Plots: Essential for tracking sales trends over time, segmented by season, which helps in understanding the temporal patterns, especially around significant events like holidays.
 
+Sales vs. Fuel Price: the scatter plot suits best to explore the relationship between these two variables.
+Yearly Sales by Store: Line plot is ideal for observing how sales for each store have changed from year to year.
+Total Monthly Sales: the bar plot suits best to visualize the monthly sales as it allows for clear comparisons between the two years and provides detailed insights into monthly sales trends.
+
 ### Are there any specific libraries or frameworks that are well-suited to our project requirements?
 
 - Plotly: Great for interactive and customizable visualizations. Supports a wide range of chart types.
@@ -289,8 +293,23 @@ To address these concerns:
   - Equal Representation: Each store and season is given equal weight in the analysis, ensuring that insights are not skewed by overemphasizing certain data points.
 
   - Comprehensive Analysis: By including both overall and store-specific analyses, the visualizations cater to multiple perspectives, helping various stakeholders see data that is most relevant to their interests.
-  
 
+## Weekly Sales vs Fuel Price/ Yearly and Monthly Sale Trends
+
+![Sales vs Fuel Price (PNG)](visualizations/viz_sales_fuel_price.png)
+![Yearly Sales by Store (PNG)](visualizations/viz_yearly_sales.png)
+![Total Monthly Sales (PNG)](visualizations/viz_monthly_sales.png)
+
+**Summary**:
+The Average Weekly Sales vs. Fuel Price visualisation shows that there is no relationship between these two variables. There is a minimal corralation and overall weekly sales are not affected by fuel prices.
+The Yearly Sales by Store line plot shows how sales for different stores evolved over the years 2010, 2011, and 2012. Based on sales performance, change in marketing strategies and product assortment can be implemented to help enhance sales performance at each store.
+The Total Monthly Sales plot shows monthly sales data for years 2010 and 2011. The best performing months are December, April, July and September, which is likely due to holidays or seasonal events. Monitoring these trends could provide insights into how to adjust operations and marketing efforts to increase sales.
+
+**Accessibility**: Colours used are not bright to make the plots accessible to people with visual impairments. I added clear labels and titles to help understand what each visualisation represents. I made sure that the text is large enough and is in a readable font. Also, grid lines were added to aid in readability.
+
+**Reproducibility**: The data set used for this project is available in the repository. To ensure that my data visualizations are reproducible, a document with the code is provided. 
+
+**Equity**: I avoided any terms or language that could be considered biased or exclusionary. Also, the visualizations are presented in a way that is easily understood by all stakeholders, regardless of their familiarity with the data.
 
 ## Folder Structure
 
