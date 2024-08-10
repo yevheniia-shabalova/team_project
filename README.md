@@ -133,11 +133,11 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 
 ## Links to the video recordings Pt. 2
 - Yevheniia Shabalova https://drive.google.com/file/d/1Zu6yC5esc23ZzQqZUVhsT-mYpBAkfRDJ/view?usp=drive_link
+- Sasini Munasinghe https://drive.google.com/file/d/1VlN98mRJ0chK3DzOzN54Ef29w0SEk92S/view
 
 # Part 2:
 
 ## Data Visualization Guiding Questions
-
 
 ### What are the main goals and objectives of our visualization project?
 
@@ -168,6 +168,10 @@ Time Series Plots: Essential for tracking sales trends over time, segmented by s
 Sales vs. Fuel Price: the scatter plot suits best to explore the relationship between these two variables.
 Yearly Sales by Store: Line plot is ideal for observing how sales for each store have changed from year to year.
 Total Monthly Sales: the bar plot suits best to visualize the monthly sales as it allows for clear comparisons between the two years and provides detailed insights into monthly sales trends.
+
+Sales vs CPI/ Unemployment: Sctter plot suits best to explore the realationship between two variables. And to understand the strength of the relationship of variables correlation matrix is the best plot.
+Monthly sales over the years: Line chart or clustered bar chart is best to clearly check how the monthly sales have changed over the years.
+Sales by store: A bar graph sorted in descending order of the total sales suits best to easily identify the top performing stores.
 
 ### Are there any specific libraries or frameworks that are well-suited to our project requirements?
 
@@ -228,7 +232,8 @@ To address these concerns:
 
 ## CPI and Unemployment variables/ Monthly and weekly sales trends:
 
-- ![ CPI/Unemployment/Monthly and weekly sales trends(PNG)](visualizations/sm_visualizations.png)
+- ![ CPI/Unemployment correlation with sales(PNG)](visualizations/sm_visualizations_CPI_unemployment.png)
+- ![ Monthly and weekly sales trends(PNG)](visualizations/sm_visualizations_monthly_trend.png)
 
   **Summary**: According to the scatter plots of weekly sales vs CPI/unemployment, it is clear that there is a weak relationship between these variables. This is also supported by the correlation matrix plot. The weak negative correlation between Weekly Sales and CPI/Unemployment suggests that as CPI or unemployment increases, weekly sales slightly decrease, though the relationship is not strong. The moderate negative correlation between CPI and Unemployment indicates that as the CPI increases, the unemployment rate tends to decrease moderately.
 
