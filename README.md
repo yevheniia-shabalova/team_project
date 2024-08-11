@@ -134,6 +134,7 @@ https://www.kaggle.com/datasets/rutuspatel/walmart-dataset-retail
 ## Links to the video recordings Pt. 2
 - Yevheniia Shabalova https://drive.google.com/file/d/1Zu6yC5esc23ZzQqZUVhsT-mYpBAkfRDJ/view?usp=drive_link
 - Sasini Munasinghe https://drive.google.com/file/d/1VlN98mRJ0chK3DzOzN54Ef29w0SEk92S/view
+- Olga Ktytor https://drive.google.com/file/d/16OdgtTgBt921AFkyptaWXlgiEMHbJZbU/view?usp=share_link
 - Olha Zamohylna https://drive.google.com/file/d/1u25LLK7bOEaq51MoMEfxXtW96jWGF3mp/view?usp=sharing
 
 # Part 2 (Data Visualization):
