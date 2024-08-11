@@ -116,16 +116,16 @@ Though the effect of unemployment on Walmart weekly sales is statistically signi
 Furthermore, analyzing data store wise might give better results by reducing the correlation of data within stores.
 
 
-## Video recordings
-
 ## Repository
 https://github.com/yevheniia-shabalova/team_project
 
 ## Link to the Board
 https://github.com/users/yevheniia-shabalova/projects/1/views/1
 
+## Dataset
+https://www.kaggle.com/datasets/rutuspatel/walmart-dataset-retail
 
-## Links to the video recordings
+## Links to the video recordings Pt.1
 - Yevheniia Shabalova https://drive.google.com/file/d/1MkZn2tzoydjEIJW_ePd6B8SM0ClSGQ9-/view?usp=sharing
 - Olha Zamohylna https://drive.google.com/file/d/1aPBRQkkxkQEbIG3Cdl9PzAP0-GMu_bVv/view?usp=sharing
 - Sasini Munasinghe https://drive.google.com/file/d/1w8XJJA2RDhhK_KDkfY5bkkjlYWH5qCeL/view
@@ -134,8 +134,9 @@ https://github.com/users/yevheniia-shabalova/projects/1/views/1
 ## Links to the video recordings Pt. 2
 - Yevheniia Shabalova https://drive.google.com/file/d/1Zu6yC5esc23ZzQqZUVhsT-mYpBAkfRDJ/view?usp=drive_link
 - Sasini Munasinghe https://drive.google.com/file/d/1VlN98mRJ0chK3DzOzN54Ef29w0SEk92S/view
+- Olha Zamohylna https://drive.google.com/file/d/1u25LLK7bOEaq51MoMEfxXtW96jWGF3mp/view?usp=sharing
 
-# Part 2:
+# Part 2 (Data Visualization):
 
 ## Data Visualization Guiding Questions
 
