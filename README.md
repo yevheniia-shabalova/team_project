@@ -1,62 +1,135 @@
-# Team Project
+# Team #22 Project
+
+## Team members & Roles
+* Olga Ktytor - Data Analyst
+* Olha Zamohylna - Data Analyst
+* Sasini Munasinghe - Data Analyst
+* Yevheniia Shabalova - Data Analyst
 
 ## Description
-The team project consists of two modules. Each module requires participants to apply the skills they have learned to date, and explore a dataset of their choosing. The first part of the team project involves creating a simple program with a database in order to analyze a dataset from an open source, such as Kaggle. In the second part of the team project, teams will come together again and apply the skills developed in each of the data science or machine learning foundations certificate streams. Teams will either create a data visualization or a machine learning model.
+This project aims to identify relationships between weekly sales and various factors using the Walmart dataset. We will explore how the following variables impact weekly sales:
 
-Participants will work in assigned teams of 4-5. 
+* Temperature
+* CPI
+* Unemployment Rate
+* Fuel Price
+* IsHoliday (whether the week is a special holiday week)
 
-#### Project Descriptions
+Our goal is to analyze these factors comprehensively and derive insights that could potentially help optimize sales strategies and operations.
 
-* [First Team Project Description](./team_project_1.md)
-* [Second Team Project Description](./team_project_2.md)
 
-## Learning Outcomes
-By the end of Team Project Module 1, participants will be able to:
-* Resolve merge conflicts
-* Describe common problems or challenges a team encounters when working collaboratively using Git and GitHub
-* Create a program to analyze a dataset with contributions from multiple team members
+## Decision-Making and Collaboration
 
-By the end of Team Project Module 2, participants will be able to:
-* Create a data visualization as a team
-* Create a machine learning model as a team
+**How will you select your dataset?** - We collectively decided to use the Walmart dataset due to its relevance to retail sales and availability of diverse variables that could impact sales performance.
 
-### Contacts
-**Questions can be submitted to the _#cohort-3-help_ channel on Slack**
+**How will you make sure all team members can contribute to the project?** - we established regular syncs in our chat and also regular meetings within live sessions.
 
-* Technical Facilitator: 
-  * **Phil Van-Lane**(he/him)
-  phil.vanlane@mail.utoronto.ca
+**How will you make decisions?** - Decisions are made through consensus during team meetings. We prioritize open communication and value input from all members to ensure well-informed and collaborative decisions.
 
-* Learning Support Staff:
-  * **Taneea Agrawaal** (she/her)
-  taneea@cs.toronto.edu
-  * **Farzaneh Hashemi** (she/her )
-  fhashemi.ma@gmail.com
-  * **Tong Su** (she/her)
-  tong.su@mail.utoronto.ca
+**What is the question you're trying to answer through your data analysis?** - The primary question we aim to answer through our data analysis is: "What factors most significantly influence weekly sales at Walmart?"
 
-### Delivery of Team Project Modules
+**What tasks need to be completed to get to your final output?** - Tasks have been allocated based on our expertise. These include data cleaning, exploratory data analysis, model selection, and interpretation of results.
 
-Each Team Project module will include two live learning sessions and one case study presentation. During live learning sessions, facilitators will introduce the project, walk through relevant examples, and introduce various team skills that support project success. The remaining time will be used for teams to assemble and work on their projects, as well as get help from the facilitator or the learning support to troubleshoot any issues a team may be encountering. 
+**What is the primary focus within the dataset?** - The primary focus within the dataset is to understand the relationships between various predictor variables (like temperature, CPI, unemployment rate, fuel price, and holidays) and weekly sales.
 
-Work periods will also be used as opportunities for teams to collaborate and work together, while accessing learning support. 
+**What are potential relationships in the data that you could explore?** - Potential relationships we aim to explore include how changes in temperature, economic indicators (like unemployment rate and fuel price), and holiday seasons impact weekly sales.
 
-### Schedule
+**What are key questions your project could answer?** - 
 
-|Day 1|Day 2|Day 3|Day 4|Day 5|
-|-----|-----|-----|-----|-----|
-|Live Learning Session |Live Learning Session|Case Study|Work Period|Work Period|
+Key questions our project aims to answer include:
 
-## Requirements
-* Participants are expected to attend live learning sessions and the case study as part of the learning experience. Participants are encouraged to use the scheduled work period time to complete their projects.
-* Participants are encouraged to ask questions and collaborate with others to enhance learning.
-* Participants must have a computer and an internet connection to participate in online activities.
-* Participants must not use generative AI such as ChatGPT to generate code to complete assignments. It should be used as a supportive tool to seek out answers to questions you may have.
-* We expect participants to have completed the [onboarding repo](https://github.com/UofT-DSI/onboarding/tree/main/onboarding_documents).
-* We encourage participants to default to having their camera on at all times, and turning the camera off only as needed. This will greatly enhance the learning experience for all participants and provides real-time feedback for the instructional team. 
+1. How does temperature affect weekly sales?
+2. What impact does prevailing consumer price index (CPI) have on sales performance?
+3. Is there a correlation between unemployment rate and sales?
+4. How do holidays influence weekly sales patterns?
+5. How do fuel prices impact weekly sales?
 
-### How to get help
-![image](/steps-to-ask-for-help.png)
+
+## Rules of engagement
+
+- Regular updates
+- Deadlines
+- Support and asking for help when it is needed
+- Visibility (Task logging on the Board)
+- Feedback
+
+## Conclusions
+
+**Analysis of the influence of temperature on weekly sales**
+
+Overall, OLS regression results shows that temperature has a statistically significant but weak relationship with weekly sales.
+Significance of Variables: Both the intercept and the temperature coefficient are statistically significant, as indicated by their p-values (both are < 0.05).
+Effect Size: The negative coefficient for Temperature suggests that higher temperatures are associated with lower weekly sales. For each one-degree increase in Temperature, weekly sales decreases by approximately 1493 units, on average.
+Model Fit: The very low R-squared value (both on training and test data) indicates that temperature explains only a very small fraction of the variance in weekly sales. This suggests that other factors not included in the model might be more important in predicting weekly sales.
+
+### Analysis of weekly sales and Holiday_Flag
+
+The model summary indicates that `Holiday_Flag` is not a statistically significant predictor of `Weekly_Sales`. The R-squared value is very low, suggesting that `Holiday_Flag` explains only a small portion of the variance in `Weekly_Sales`.
+
+**Analysis of Relationship Between Weekly Sales and Fuel Prices**
+
+From the model results, we can conclude that fuel prices do not have a statistically significant relationship with weekly sales. 
+The R-squared score is very close to 0, which suggests that the independent variable does not significantly predict or explain the weekly sales based on the linear relationship we modelled. The p-value is 0.448, which is greater than the typical significance level of 0.05, so we can see that the model as a whole is not statistically significant. 
+Therefore, other factors may be necessary to effectively predict weekly prices at Walmart stores.
+
+**Analysis of Relationship Between Weekly Sales and CPI (Consumer Price Index)**
+R-squared = 0.004 indicates that only 0.4% of the variance in Walmart weekly sales can be explained by changes in CPI. This suggests a very weak relationship between CPI and Walmart sales. 
+
+CPI coefficient = (-0.0649) indicates that for every 1% increase in CPI, Walmart weekly sales are predicted to decrease by 6%.
+
+**Analysis of Relationship Between Weekly Sales and Unemployment**
+R-squared = 0.013 indicates that only 1.3% of the variance in Walmart weekly sales can be explained by the unemployment rate. This suggests a very weak relationship between unemployment and Walmart sales. 
+
+Unemployment coefficient = (-0.1135) indicates that For every 1% increase in unemployment rate Walmart weekly sales are predicted to decrease by 11%.
+
+
+## Suggestions
+
+### Suggestions based on temperature and weekly sales correlation:
+
+1. Exploring Additional Variables (seasonality, competitor activity, store characteristics, customer segments,  etc.)
+2. Targeted Promotions: Use the insights to plan promotions and marketing campaigns more effectively. For example, if certain products sell better at specific temperatures, target promotions accordingly.
+3. Inventory Management: Adjust inventory levels based on temperature forecasts to ensure adequate stock of weather-sensitive items.
+4. Staffing Adjustments: Plan staffing levels according to expected sales patterns influenced by weather conditions and other factors.
+
+
+### Suggestion of weekly sales and Holiday_Flag
+1. Reevaluate Holiday Promotions: Since holidays do not significantly increase weekly sales, the store should reassess its promotional strategies during holidays. It might be beneficial to analyze which types of promotions (e.g., discounts, bundles) are most effective and focus on those.
+2. Focus on Non-Holiday Periods: Consider boosting sales during non-holiday periods. Identify times of the year when sales are typically lower and implement targeted marketing campaigns or special events to drive traffic during these periods.
+
+**Analysis of Relationship Between Weekly Sales and Fuel Prices**
+
+Although, a fuel price may not directly impact sales, it could indirectly affect consumer behaviour in other ways. For instance, changes in fuel prices might influence consumer spending patterns or shopping frequency. Monitoring these behaviors could provide insights into how to adjust operations or marketing efforts accordingly.
+Also, change in marketing strategies and product assortment, as well as new promotions, and customer experience improvements can help enhance sales performance.
+
+**Analysis of Relationship Between Weekly Sales and CPI (Consumer Price Index)**
+
+CPI plays a weak role in predicting Walmart's weekly sales. The observed effect size (-0.0649) might not warrant significant strategic changes unless coupled with other economic factors.
+
+Inclusion of additional factors such as weather, seasons, promotions or economic indicators and performing further analysis to improve the model's explanatory power would help to make more strategic decisions regarding the effect of CPI on weekly sales.
+
+**Analysis of Relationship Between Weekly Sales and Unemployment**
+The negative relationship between unemployment and sales seems reasonable intuitively. In times of high unemployment, consumers might have less disposable income, leading to lower overall spending, potentially impacting Walmart's sales.
+
+Though the effect of unemployment on Walmart weekly sales is statistically significant, it explains only about 1.3% of the variation in sales. This suggests that factors other than unemployment rate play a much larger role in determining Walmart sales.
+
+Furthermore, analyzing data store wise might give better results by reducing the correlation of data within stores.
+
+
+## Video recordings
+
+## Repository
+https://github.com/yevheniia-shabalova/team_project
+
+## Link to the Board
+https://github.com/users/yevheniia-shabalova/projects/1/views/1
+
+
+## Links to the video recordings
+- Yevheniia Shabalova https://drive.google.com/file/d/1MkZn2tzoydjEIJW_ePd6B8SM0ClSGQ9-/view?usp=sharing
+- Olha Zamohylna https://drive.google.com/file/d/1aPBRQkkxkQEbIG3Cdl9PzAP0-GMu_bVv/view?usp=sharing
+- Sasini Munasinghe https://drive.google.com/file/d/1w8XJJA2RDhhK_KDkfY5bkkjlYWH5qCeL/view
+- Olga Ktytor https://drive.google.com/file/d/1b12ejB6CEM67kJ6zSpUs0AVkKTNE-P5Q/view?usp=share_link
 
 ## Folder Structure
 
